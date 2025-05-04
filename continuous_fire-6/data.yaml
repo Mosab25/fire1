@@ -1,0 +1,20 @@
+# Complete corrected data.yaml for continuous_fire-6 dataset
+names:
+  - fire
+nc: 1
+
+# Dataset paths (using absolute paths for reliability)
+train: C:/Users/Downloads/machine_learning-master/yolov8-on-fire-colab/continuous_fire-6/train/images
+val: C:/Users/Downloads/machine_learning-master/yolov8-on-fire-colab/continuous_fire-6/valid/images
+test: C:/Users/Downloads/machine_learning-master/yolov8-on-fire-colab/continuous_fire-6/test/images
+
+# Roboflow metadata
+roboflow:
+  license: CC BY 4.0
+  project: continuous_fire
+  url: https://universe.roboflow.com/-jwzpw/continuous_fire/dataset/6
+  version: 6
+  workspace: -jwzpw
+
+# Additional YOLOv8 parameters (optional)
+# download: https://universe.roboflow.com/-jwzpw/continuous_fire/dataset/6/download
